@@ -10,5 +10,6 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::911D8C54-0B60-47CA-9C16-D836B64AF7B0::net8.0::TryTest.Tests.TestWithPOM&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::911D8C54-0B60-47CA-9C16-D836B64AF7B0::net8.0::TryTest.Tests.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::911D8C54-0B60-47CA-9C16-D836B64AF7B0::net8.0::TryTest.Tests.TestNetwork&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
