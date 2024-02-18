@@ -1,3 +1,5 @@
+using System.Web;
+using FluentAssertions;
 using Microsoft.Playwright;
 using TryTest.Pages;
 
@@ -82,5 +84,32 @@ public class Tests
         //loginPage.IsEmployeeDetailsExists();
         var isExist = await loginPage.IsEmployeeDetailsExists();
         Assert.IsTrue(isExist);
+    }
+
+    [Test]
+    public async Task Flipkart()
+    {
+        using var playwright = await Playwright.CreateAsync();
+        await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
+        {
+            Headless = false
+        });
+        var page = await browser.NewPageAsync();
+        await page.GotoAsync("http://www.flipkart.com/", new PageGotoOptions
+        {
+            WaitUntil = WaitUntilState.NetworkIdle
+        });
+        //await page.Locator("text=x").ClickAsync();
+        await page.Locator("span", new PageLocatorOptions
+        {
+            HasTextString = "Login"
+        }).ClickAsync();
+        var request = await page.RunAndWaitForRequestAsync(async () =>
+        {
+            await page.Locator("text=x").ClickAsync();
+        }, x => x.Method == "GET");
+        var returnData = HttpUtility.UrlDecode(request.Url);
+        Console.WriteLine(returnData);
+        returnData.Should().Contain("flix");
     }
 }

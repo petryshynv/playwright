@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "km/tuEoBqnCqg8WzCGV0TufB0jEK4i1dCZmBNiZ6uUiaVfEcwjamES2tm9iZw6IqB9NBS6KHhNj+a4q96ZjcGA==",
+  "dgSpecHash": "l0lGF7RfXZkJFnhf9gss1yIVIiqZayIapog/rzLpL8VIgEk2hvSpLkAFw3vTB3SyrR6i3c7HL2MJvhc8Us6SDQ==",
   "success": true,
   "projectFilePath": "/Users/macost/Documents/playWright/Demo/playwright/TryTest/TryTest.csproj",
   "expectedPackageFiles": [
     "/Users/macost/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/macost/.nuget/packages/fluentassertions/7.0.0-alpha.3/fluentassertions.7.0.0-alpha.3.nupkg.sha512",
     "/Users/macost/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/macost/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
     "/Users/macost/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
@@ -21,8 +22,10 @@
     "/Users/macost/.nuget/packages/nunit.analyzers/3.9.0/nunit.analyzers.3.9.0.nupkg.sha512",
     "/Users/macost/.nuget/packages/nunit3testadapter/4.5.0/nunit3testadapter.4.5.0.nupkg.sha512",
     "/Users/macost/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/macost/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "/Users/macost/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
     "/Users/macost/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/macost/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
     "/Users/macost/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/macost/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512"
   ],

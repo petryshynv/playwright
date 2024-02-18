@@ -399,3 +399,7 @@
 /Users/macost/Documents/playWright/Demo/playwright/TryTest/obj/Debug/net8.0/TryTest.pdb
 /Users/macost/Documents/playWright/Demo/playwright/TryTest/obj/Debug/net8.0/TryTest.genruntimeconfig.cache
 /Users/macost/Documents/playWright/Demo/playwright/TryTest/obj/Debug/net8.0/ref/TryTest.dll
+/Users/macost/Documents/playWright/Demo/playwright/TryTest/bin/Debug/net8.0/FluentAssertions.dll
+/Users/macost/Documents/playWright/Demo/playwright/TryTest/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/Users/macost/Documents/playWright/Demo/playwright/TryTest/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/macost/Documents/playWright/Demo/playwright/TryTest/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
