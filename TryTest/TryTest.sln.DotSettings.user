@@ -6,6 +6,7 @@
     &lt;TestId&gt;NUnit3x::911D8C54-0B60-47CA-9C16-D836B64AF7B0::net8.0::TryTest.Tests.TestWithPOM&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::911D8C54-0B60-47CA-9C16-D836B64AF7B0::net8.0::TryTest.Tests.TestNetwork&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::911D8C54-0B60-47CA-9C16-D836B64AF7B0::net8.0::TryTest.Tests.Flipkart&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::911D8C54-0B60-47CA-9C16-D836B64AF7B0::net8.0::TryTest.Tests.FlipkartNetworkInterception&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=eb605e1f_002D8790_002D42c2_002D9989_002D2655d888b633/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestWithPOM" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
